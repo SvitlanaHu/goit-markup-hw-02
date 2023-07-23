@@ -11,7 +11,7 @@
 
 /* Body */
 body {
-  font-family: "Roboto", "Verdana", sans-serif;
+  font-family: "Roboto", "Raleway", "Verdana", sans-serif;
   font-style: normal;
   background: #fff;
   color: var(--brend-color, #434455);
@@ -46,7 +46,6 @@ h3 {
 
 p {
   color: var(--brend-color, #434455);
-  font-size: 16px;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
@@ -70,6 +69,7 @@ p {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   width: 1440px;
   height: 52px;
+  margin: 0;
 }
 
 /*Logo*/
@@ -147,7 +147,7 @@ address {
 /*Button*/
 .main-button {
   display: flex;
-  width: 170px;
+  width: 180px;
   margin: 64px 636px 188px 636px;
 
   flex-direction: column;
@@ -162,6 +162,7 @@ address {
 }
 
 .button-text {
+  font-size: 16px;
   padding: 16px 32px 16px 32px;
 }
 
@@ -214,10 +215,8 @@ address {
 /*Portfolio main. Section 1*/
 .filter {
   width: 1860px;
-  height: 427px;
-  margin-left: 427px;
-  margin-top: 96px;
-  margin: 96px 0 0 427px;
+  height: 48px;
+  margin: 96px 0 72px 427px;
 }
 
 .portfolio-button {
@@ -226,7 +225,8 @@ address {
   margin-left: 24px;
 }
 
-.portfolio-button:hover {
+.portfolio-button:hover,
+.portfolio-button:focus {
   background-color: var(--active-link);
 }
 
