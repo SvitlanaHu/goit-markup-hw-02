@@ -90,10 +90,11 @@ p {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  color: var(--brend-color-logo, #4d5ae5);
+  color: var(--brend-color-logo);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
