@@ -11,7 +11,7 @@
 
 /* Body */
 body {
-  font-family: "Roboto", "Raleway", "Verdana", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   background: #fff;
   color: var(--brend-color, #434455);
@@ -24,6 +24,13 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brend-title-color);
 }
 
 h1,
@@ -86,7 +93,7 @@ p {
   color: var(--brend-color-logo, #4d5ae5);
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17;
   text-transform: uppercase;
 }
 
@@ -110,13 +117,16 @@ p {
   font-weight: 400;
   font-size: 16px;
   margin-left: 40px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .navbox1:hover {
   color: var(--active-link, #404bbf);
 }
 
-address {
+.contacts {
   margin-left: 200px;
+  font-style: normal;
 }
 
 /*Main*/
@@ -137,11 +147,11 @@ address {
   color: var(--main-title, #fff);
   text-align: center;
   font-size: 56px;
+  line-height: 1.07;
   line-height: 60px;
   width: 1440px;
-  /* font-weight: 700;
-   /* 107.143% */
-  /*letter-spacing: 1.12px;*/
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /*Button*/
@@ -152,13 +162,13 @@ address {
 
   flex-direction: column;
   align-items: flex-end;
-  color: var(--main-title, #fff);
+  color: var(--main-title);
   border-radius: 4px;
-  background: var(--brend-color-logo, #4d5ae5);
+  background: var(--brend-color-logo);
 }
 
 .main-button:hover {
-  background: var(--active-link, #404bbf);
+  background: var(--active-link);
 }
 
 .button-text {
