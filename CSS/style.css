@@ -1,10 +1,25 @@
+/* Declaration of variables*/
+:root {
+  --brend-color: #434455;
+  --brend-title-color: #2e2f42;
+  --cornflower: #e7e9fc;
+  --brend-color-logo: #4d5ae5;
+  --active-link: #404bbf;
+  --main-title: #fff;
+  --team-background: #f4f4fd;
+}
+
 /* Body */
 body {
   font-family: "Roboto", "Verdana", sans-serif;
   font-style: normal;
   background: #fff;
-  color: var(--slate, #434455);
+  color: var(--brend-color, #434455);
   width: 1440px;
+}
+
+.list {
+  list-style: none;
 }
 
 a {
@@ -13,7 +28,7 @@ a {
 
 h1,
 h2 {
-  color: var(--navyblue, #2e2f42);
+  color: var(--brend-title-color, #2e2f42);
   font-weight: 700;
   text-align: center;
 }
@@ -26,11 +41,11 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  color: var(--navyblue, #2e2f42);
+  color: var(--brend-title-color, #2e2f42);
 }
 
 p {
-  color: var(--slate, #434455);
+  color: var(--brend-color, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px; /* 150% */
@@ -61,7 +76,7 @@ p {
 
 .logo {
   font-family: Raleway;
-  color: var(--iris, #4d5ae5);
+  color: var(--brend-color-logo, #4d5ae5);
   font-size: 18px;
   font-weight: 800;
   line-height: 21px; /* 116.667% */
@@ -69,7 +84,7 @@ p {
 }
 
 .logo-studio {
-  color: var(--navyblue, #2e2f42);
+  color: var(--brend-title-color, #2e2f42);
 }
 
 .navbox {
@@ -79,18 +94,18 @@ p {
 }
 
 .navbox:hover {
-  color: var(--ocean, #404bbf);
+  color: var(--active-link, #404bbf);
   border-radius: 2px;
 }
 
 .navbox1 {
-  color: var(--slate, #434455);
+  color: var(--brend-color, #434455);
   font-weight: 400;
   font-size: 16px;
   margin-left: 40px;
 }
 .navbox1:hover {
-  color: var(--ocean, #404bbf);
+  color: var(--active-link, #404bbf);
 }
 
 address {
@@ -102,7 +117,7 @@ address {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
-  background: var(--navyblue, #2e2f42);
+  background: var(--active-link, #2e2f42);
   margin: 0 0 120px 0;
   padding: 0;
 }
@@ -112,7 +127,7 @@ address {
 }
 
 .text-title {
-  color: var(--white, #fff);
+  color: var(--main-title, #fff);
   text-align: center;
   font-size: 56px;
   line-height: 60px;
@@ -130,16 +145,16 @@ button {
 
   flex-direction: column;
   align-items: flex-end;
-  color: var(--white, #fff);
+  color: var(--main-title, #fff);
   gap: 16px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(--iris, #4d5ae5);
+  background: var(--brend-color-logo, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 button:hover {
-  background: var(--ocean, #404bbf);
+  background: var(--brend-title-color, #404bbf);
 }
 
 .button-text {
@@ -162,7 +177,7 @@ button:hover {
 
 /* Section Our Team*/
 .main-section-team {
-  background: var(--cloud, #f4f4fd);
+  background: var(--team-background, #f4f4fd);
   height: 732px;
 }
 
@@ -178,7 +193,7 @@ button:hover {
   margin-right: 24px;
   width: 264px;
   text-align: center;
-  background: var(--white, #fff);
+  background: var(--main-title, #fff);
 }
 
 /*Footer*/
@@ -186,7 +201,7 @@ footer {
   width: 1440px;
   height: 312px;
   flex-shrink: 0;
-  background: var(--navyblue, #2e2f42);
+  background: var(--brend-title-color, #2e2f42);
   margin: 0;
   padding: 0;
 }
@@ -197,10 +212,10 @@ footer {
 }
 
 .logo-studio-footer {
-  color: var(--cloud, #f4f4fd);
+  color: var(--team-background, #f4f4fd);
 }
 
 .footer-text {
-  color: var(--cloud, #f4f4fd);
+  color: var(--team-background, #f4f4fd);
   padding-left: 156px;
 }
