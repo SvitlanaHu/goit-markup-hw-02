@@ -10,7 +10,7 @@
   <body>
     <header class="top-line">
       <!--Top line-->
-      <nav class="navigation">
+      <nav class="placement-in-a-line">
         <!--Logo-->
         <div class="logo-box">
           <a class="logo" href="./index.html">
@@ -18,7 +18,7 @@
           </a>
         </div>
 
-        <ul class="navigation">
+        <ul class="placement-in-a-line list">
           <li>
             <a href=""><div class="navbox">Studio</div></a>
           </li>
@@ -32,7 +32,7 @@
       </nav>
 
       <address>
-        <ul class="navigation">
+        <ul class="placement-in-a-line list">
           <li>
             <a href="mailto:info@devstudio.com">
               <div class="navbox1">info@devstudio.com</div></a
@@ -49,116 +49,155 @@
 
     <main>
       <h1 hidden>Our projects</h1>
-      <!--Filters-->
-      <section>
-        <ul>
-          <li>All</li>
-          <li>Web Site</li>
-          <li>App</li>
-          <li>Design</li>
-          <li>Marketing</li>
+      <!--Filter-->
+      <section class="filter">
+        <ul class="list placement-in-a-line">
+          <li>
+            <button type="button" class="portfolio-button">
+              <div class="portfolio-button-text">All</div>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">
+              <div class="portfolio-button-text">Web Site</div>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">
+              <div class="portfolio-button-text">App</div>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">
+              <div class="portfolio-button-text">Design</div>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">
+              <div class="portfolio-button-text">Marketing</div>
+            </button>
+          </li>
         </ul>
       </section>
 
-      <!--Row 1-->
-      <section>
+      <section class="project-box">
+        <!--Row 1-->
         <h2 hidden>Our projects. Row1</h2>
-        <ul>
-          <li>
+        <ul class="project-box-row list placement-in-a-line">
+          <li class="project-card">
             <img
               src="./images/portfolio-images/img11-1.jpg"
               alt="Banking App Interface Concept's photo"
               width="360"
             />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <div class="project-card-signature">
+              <h3 class="card-name">Banking App Interface Concept</h3>
+              <p class="card-name">App</p>
+            </div>
           </li>
-          <li>
+
+          <li class="project-card">
             <img
               src="./images/portfolio-images/img11-2.jpg"
               alt="Cashless Payment's photo"
               width="360"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <div class="project-card-signature">
+              <h3 class="card-name">Cashless Payment</h3>
+              <p class="card-name">Marketing</p>
+            </div>
           </li>
-          <li>
+
+          <li class="project-card">
             <img
               src="./images/portfolio-images/img11-3.jpg"
               alt="Meditation App's photo"
               width="360"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <div class="project-card-signature">
+              <h3 class="card-name">Meditation App</h3>
+              <p class="card-name">App</p>
+            </div>
           </li>
         </ul>
-      </section>
 
-      <!--Row 2-->
-      <section>
+        <!--Row 2-->
         <h2 hidden>Our projects. Row2</h2>
-        <ul>
-          <li>
+        <ul class="project-box-row list placement-in-a-line">
+          <li class="project-card">
             <img
               src="./images/portfolio-images/img12-1.jpg"
               alt="Taxi Service's photo"
               width="360"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <div class="project-card-signature">
+              <h3 class="card-name">Taxi Service</h3>
+              <p class="card-name">Marketing</p>
+            </div>
           </li>
-          <li>
+
+          <li class="project-card">
             <img
               src="./images/portfolio-images/img12-2.jpg"
               alt="Screen Illustrations's photo"
               width="360"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <div class="project-card-signature">
+              <h3 class="card-name">Screen Illustrations</h3>
+              <p class="card-name">Design</p>
+            </div>
           </li>
-          <li>
+
+          <li class="project-card">
             <img
               src="./images/portfolio-images/img12-3.jpg"
               alt="Online Courses's photo"
               width="360"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <div class="project-card-signature">
+              <h3 class="card-name">Online Courses</h3>
+              <p class="card-name">Marketing</p>
+            </div>
           </li>
-          >
         </ul>
-      </section>
 
-      <!--Row 3-->
-      <section>
+        <!--Row 3-->
         <h2 hidden>Our projects. Row3</h2>
-        <ul>
-          <li>
+        <ul class="project-box-row list placement-in-a-line">
+          <li class="project-card">
             <img
               src="./images/portfolio-images/img13-1.jpg"
               alt="Instagram Stories Concept's photo"
               width="360"
             />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <div class="project-card-signature">
+              <h3 class="card-name">Instagram Stories Concept</h3>
+              <p class="card-name">Design</p>
+            </div>
           </li>
-          <li>
+
+          <li class="project-card">
             <img
               src="./images/portfolio-images/img13-2.jpg"
               alt="Organic Food's photo"
               width="360"
             />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <div class="project-card-signature">
+              <h3 class="card-name">Organic Food</h3>
+              <p class="card-name">Web Site</p>
+            </div>
           </li>
-          <li>
+
+          <li class="project-card">
             <img
               src="./images/portfolio-images/img13-3.jpg"
               alt="Fresh Coffee's photo"
               width="360"
             />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <div class="project-card-signature">
+              <h3 class="card-name">Fresh Coffee</h3>
+              <p class="card-name">Web Site</p>
+            </div>
           </li>
         </ul>
       </section>
