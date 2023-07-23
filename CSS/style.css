@@ -82,7 +82,7 @@ p {
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   color: var(--brend-color-logo, #4d5ae5);
   font-size: 18px;
   font-weight: 800;
