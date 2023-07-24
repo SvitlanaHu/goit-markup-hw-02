@@ -12,7 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   background: var(--white);
-  color: var(--slate);
+  color: var(--slate, #434455);
 }
 
 /*Header*/
@@ -129,6 +129,24 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
+}
+
+/*Portfolio*/
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris, #4d5ae5);
+  background-color: var(--cloud, #f4f4fd);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #fff;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 /* Footer*/
