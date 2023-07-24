@@ -62,3 +62,11 @@ body {
 .logo-studio-footer {
   color: var(--cloud, #f4f4fd);
 }
+
+.footer-box {
+  background: var(--navyblue, #2e2f42);
+}
+
+.paragraf-box {
+  line-height: 1.5;
+}
