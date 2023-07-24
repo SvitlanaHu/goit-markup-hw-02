@@ -1,20 +1,26 @@
 /* Declaration of variables*/
 :root {
   --brend-color: #434455;
+  --slate: #434455;
   --brend-title-color: #2e2f42;
+  --navy-blu: #2e2f42;
   --cornflower: #e7e9fc;
   --brend-color-logo: #4d5ae5;
+  --iris: #4d5ae5;
   --active-link: #404bbf;
+  --ocean: #404bbf;
   --main-title: #fff;
+  --white: #fff;
   --team-background: #f4f4fd;
+  --cloud: #f4f4fd;
 }
 
 /* Body */
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  background: var(--main-title);
-  color: var(--brend-color);
+  background: var(--white);
+  color: var(--slate);
   /* width: 1440px;*/
 }
 
@@ -22,20 +28,16 @@ body {
   list-style: none;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .text-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--brend-title-color);
+  color: var(--navy-blu);
 }
 
 h1,
 h2 {
-  color: var(--brend-title-color);
+  color: var(--navy-blu);
   font-weight: 700;
   text-align: center;
 }
@@ -48,11 +50,11 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  color: var(--brend-title-color);
+  color: var(--navy-blu);
 }
 
 p {
-  color: var(--brend-color);
+  color: var(--slate);
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
@@ -88,18 +90,22 @@ p {
   margin-right: 40px;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
-  color: var(--brend-color-logo);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--iris);
 }
 
 .logo-studio {
-  color: var(--brend-title-color);
+  color: var(--navy-blu);
 }
 
 .navigation-box {
@@ -110,12 +116,12 @@ p {
 
 .navigation-box:hover,
 .navigation-box:focus {
-  color: var(--active-link);
+  color: var(--ocean);
   /* border-radius: 2px;*/
 }
 
 .contact-box {
-  color: var(--brend-color);
+  color: var(--slate);
   font-weight: 400;
   font-size: 16px;
   margin-left: 40px;
@@ -123,11 +129,11 @@ p {
   letter-spacing: 0.02em;
 }
 .contact-box:hover {
-  color: var(--active-link);
+  color: var(--ocean);
 }
 
 .contact-box:focus {
-  color: var(--active-link);
+  color: var(--ocean);
 }
 
 .contacts {
@@ -135,47 +141,47 @@ p {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--brend-color);
+  color: var(--slate);
 }
 
 /*Main*/
 .title-box {
-  /*  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;*/
-  background: var(--brend-title-color);
+  background: var(--navy-blublu);
   margin: 0 0 120px 0;
   padding: 188px 472px 0 0;
   text-align: center;
 }
+/*  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;*/
 /*
 .title {
   padding: 188px 472px 0 0;
 }*/
 
 .text-title {
-  color: var(--main-title);
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
   line-height: 60px;
-  /* width: 1440px;*/
+
   letter-spacing: 0.02em;
   text-align: center;
+  color: var(--white);
 }
+/* width: 1440px;*/
 
 /*Button*/
 .main-button {
-  /* display: flex;
-  width: 180px;*/
   margin: 64px 636px 188px 636px;
-
-  /*  flex-direction: column;
-  align-items: flex-end;
-  border-radius: 4px;*/
-  background: var(--brend-color-logo);
+  background-color: var(--iris);
   color: var(--main-title);
 }
+/* display: flex;
+  width: 180px;*/
+/*  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 4px;*/
 
 .main-button:hover {
   background: var(--active-link);
@@ -202,9 +208,9 @@ p {
 
 /* Section Our Team*/
 .main-section-team {
-  background: var(--team-background);
-  /* height: 732px;*/
+  background-color: var(--cornflower);
 }
+/* height: 732px;*/
 
 .title-team {
   padding: 120px 0 72px 0;
@@ -234,10 +240,10 @@ p {
 
 /*Portfolio main. Section 1*/
 .filter {
-  /* width: 1860px;
-  height: 48px;*/
   margin: 96px 0 72px 427px;
 }
+/* width: 1860px;
+  height: 48px;*/
 
 .portfolio-button {
   background-color: var(--team-background);
@@ -273,29 +279,29 @@ p {
 }*/
 
 .project-card {
-  /* width: 360px;
-  height: 420px;*/
   margin-right: 24px;
   background: var(--main-title);
 }
+/* width: 360px;
+  height: 420px;*/
 
 .project-card-signature {
-  /*  width: 328px;
-  height: 56px;*/
   padding: 32px 16px 32px 16px;
 }
+/*  width: 328px;
+  height: 56px;*/
 
 /*Portfolio main. Row 1*/
 
 /*Footer*/
 footer {
-  /*  width: 1440px;
-  height: 312px;
-  flex-shrink: 0;*/
   background: var(--brend-title-color);
   margin: 0;
   padding: 100px 0 100px 0;
 }
+/*  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;*/
 
 .logo-box-footer {
   padding-top: 100px;
