@@ -124,7 +124,7 @@ p {
 }
 .navbox1:hover,
 .navbox1:focus {
-  color: var(--active-link);
+  color: #404bbf;
 }
 
 .contacts {
