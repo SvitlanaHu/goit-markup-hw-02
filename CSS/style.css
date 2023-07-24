@@ -14,8 +14,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   background: #fff;
-  color: var(--brend-color, #434455);
-  width: 1440px;
+  color: var(--brend-color);
+  /* width: 1440px;*/
 }
 
 .list {
@@ -35,7 +35,7 @@ body {
 
 h1,
 h2 {
-  color: var(--brend-title-color, #2e2f42);
+  color: var(--brend-title-color);
   font-weight: 700;
   text-align: center;
 }
@@ -48,11 +48,11 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  color: var(--brend-title-color, #2e2f42);
+  color: var(--brend-title-color);
 }
 
 p {
-  color: var(--brend-color, #434455);
+  color: var(--brend-color);
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
@@ -63,17 +63,17 @@ p {
   font-weight: 500;
   line-height: 24px;
 }
-
+/*
 .placement-in-a-line {
   display: flex;
   flex-direction: row;
 }
 
-/* Header*/
+/* Header
 .top-line {
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  border-bottom: 1px solid var(--cornflower);
   width: 1440px;
   height: 52px;
   margin: 0;
@@ -81,8 +81,8 @@ p {
 
 /*Logo*/
 .logo-box {
-  width: 116px;
-  height: 21px;
+  /* width: 116px;
+  height: 21px;*/
   padding-top: 18px;
   margin-left: 156px;
   margin-right: 40px;
@@ -99,7 +99,7 @@ p {
 }
 
 .logo-studio {
-  color: var(--brend-title-color, #2e2f42);
+  color: var(--brend-title-color);
 }
 
 .navbox {
@@ -111,7 +111,7 @@ p {
 .navbox:hover,
 .navbox:focus {
   color: var(--active-link);
-  border-radius: 2px;
+  /* border-radius: 2px;*/
 }
 
 .navbox1 {
@@ -137,40 +137,41 @@ p {
 
 /*Main*/
 .title-box {
-  width: 1440px;
+  /*  width: 1440px;
   height: 600px;
-  flex-shrink: 0;
-  background: var(--brend-title-color, #2e2f42);
+  flex-shrink: 0;*/
+  background: var(--brend-title-color);
   margin: 0 0 120px 0;
-  padding: 0;
+  padding: 188px 472px 0 0;
+  text-align: center;
 }
-
+/*
 .title {
   padding: 188px 472px 0 0;
-}
+}*/
 
 .text-title {
-  color: var(--main-title, #fff);
+  color: var(--main-title);
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
   line-height: 60px;
-  width: 1440px;
+  /* width: 1440px;*/
   letter-spacing: 0.02em;
   text-align: center;
 }
 
 /*Button*/
 .main-button {
-  display: flex;
-  width: 180px;
+  /* display: flex;
+  width: 180px;*/
   margin: 64px 636px 188px 636px;
 
-  flex-direction: column;
+  /*  flex-direction: column;
   align-items: flex-end;
-  color: var(--main-title);
-  border-radius: 4px;
+  border-radius: 4px;*/
   background: var(--brend-color-logo);
+  color: var(--main-title);
 }
 
 .main-button:hover {
@@ -189,7 +190,7 @@ p {
 
 .feature {
   margin-right: 24px;
-  width: 264px;
+  /* width: 264px;*/
 }
 
 .images {
@@ -199,7 +200,7 @@ p {
 /* Section Our Team*/
 .main-section-team {
   background: var(--team-background);
-  height: 732px;
+  /* height: 732px;*/
 }
 
 .title-team {
@@ -212,14 +213,14 @@ p {
 
 .card {
   margin-right: 24px;
-  width: 264px;
+  /*  width: 264px;*/
   text-align: center;
   background: var(--main-title);
 }
 
 .card-signature {
-  width: 232px;
-  height: 56px;
+  /*  width: 232px;
+  height: 56px;*/
   padding: 32px 16px 32px 16px;
 }
 
@@ -230,8 +231,8 @@ p {
 
 /*Portfolio main. Section 1*/
 .filter {
-  width: 1860px;
-  height: 48px;
+  /* width: 1860px;
+  height: 48px;*/
   margin: 96px 0 72px 427px;
 }
 
@@ -263,21 +264,21 @@ p {
 .project-box-row {
   margin: 0 156px 48px 156px;
 }
-
+/*
 .project-box-row > .project-card {
   border: 1px solid var(--cornflower);
-}
+}*/
 
 .project-card {
-  width: 360px;
-  height: 420px;
+  /* width: 360px;
+  height: 420px;*/
   margin-right: 24px;
   background: var(--main-title);
 }
 
 .project-card-signature {
-  width: 328px;
-  height: 56px;
+  /*  width: 328px;
+  height: 56px;*/
   padding: 32px 16px 32px 16px;
 }
 
@@ -286,8 +287,8 @@ p {
 /*Footer*/
 footer {
   /*  width: 1440px;
-  height: 312px;*/
-  flex-shrink: 0;
+  height: 312px;
+  flex-shrink: 0;*/
   background: var(--brend-title-color);
   margin: 0;
   padding: 0 0 100px 0;
