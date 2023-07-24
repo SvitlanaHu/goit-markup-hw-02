@@ -122,9 +122,12 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.navbox1:hover,
+.navbox1:hover {
+  color: var(--active-link);
+}
+
 .navbox1:focus {
-  color: #404bbf;
+  color: var(--active-link);
 }
 
 .contacts {
