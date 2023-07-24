@@ -12,7 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   background: var(--white);
-  color: var(--slate, #434455);
+  color: var(--slate);
 }
 
 /*Header*/
@@ -23,7 +23,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
 }
 
 .link {
@@ -31,7 +31,7 @@ body {
 }
 
 .logo-studio {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
 }
 
 .list {
@@ -44,28 +44,34 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.contact {
+    font-style: normal;
+}
+
 .contact-box {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate, #434455);
+  color: var(--slate);
 }
 
 .contact-box:hover,
 .contact-box:focus {
-  color: var(--ocean, #404bbf);
+  color: var(--ocean);
 }
 
 /* Main*/
 .title-box {
-  background: var(--navyblue, #2e2f42);
+  background: var(--navyblue);
 }
+
 .main-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--white, #fff);
+  color: var(--white);
 }
 
 .main-button {
@@ -93,14 +99,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
 }
 
 .advantages-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate, #434455);
+  color: var(--slate);
 }
 
 .opportunities-title {
@@ -109,11 +115,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
 }
 
 .main-section-team {
   background-color: #f4f4fd;
+}
+
+.card {
+    background-color: #ffffff;
 }
 
 .card-name {
@@ -121,14 +131,14 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
 }
 
 .card-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate, #434455);
+  color: var(--slate);
 }
 
 /*Portfolio*/
@@ -138,8 +148,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--iris, #4d5ae5);
-  background-color: var(--cloud, #f4f4fd);
+  color: var(--iris);
+  background-color: var(--cloud);
 }
 
 .portfolio-button:hover,
@@ -155,11 +165,11 @@ body {
 }
 
 .footer-box {
-  background: var(--navyblue, #2e2f42);
+  background: var(--navyblue);
 }
 
 .paragraf-box {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud);
 }
