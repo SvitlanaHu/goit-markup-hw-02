@@ -13,7 +13,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  background: #fff;
+  background: var(--main-title);
   color: var(--brend-color);
   /* width: 1440px;*/
 }
@@ -26,7 +26,7 @@ body {
   text-decoration: none;
 }
 
-.logo-link {
+.text-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -91,8 +91,8 @@ p {
 .logo {
   font-family: "Raleway", sans-serif;
   color: var(--brend-color-logo);
-  font-size: 18px;
   font-weight: 800;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -102,19 +102,19 @@ p {
   color: var(--brend-title-color);
 }
 
-.navbox {
+.navigation-box {
   margin-left: 40px;
   font-size: 18px;
   font-weight: 500;
 }
 
-.navbox:hover,
-.navbox:focus {
+.navigation-box:hover,
+.navigation-box:focus {
   color: var(--active-link);
   /* border-radius: 2px;*/
 }
 
-.navbox1 {
+.contact-box {
   color: var(--brend-color);
   font-weight: 400;
   font-size: 16px;
@@ -122,11 +122,11 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.navbox1:hover {
+.contact-box:hover {
   color: var(--active-link);
 }
 
-.navbox1:focus {
+.contact-box:focus {
   color: var(--active-link);
 }
 
