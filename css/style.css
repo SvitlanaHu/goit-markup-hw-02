@@ -57,6 +57,79 @@ body {
 }
 
 /* Main*/
+.title-box {
+  background: var(--navyblue, #2e2f42);
+}
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white, #fff);
+}
+
+.main-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.main-advantages-section {
+  font-weight: 500;
+}
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue, #2e2f42);
+}
+
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate, #434455);
+}
+
+.opportunities-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue, #2e2f42);
+}
+
+.main-section-team {
+  background-color: #f4f4fd;
+}
+
+.card-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue, #2e2f42);
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate, #434455);
+}
 
 /* Footer*/
 .logo-studio-footer {
@@ -69,4 +142,6 @@ body {
 
 .paragraf-box {
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud, #f4f4fd);
 }

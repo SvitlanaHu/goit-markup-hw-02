@@ -26,12 +26,10 @@
       <!--Top line-->
       <nav class="placement-in-a-line">
         <!--Logo-->
-
         <a class="link logo" href="./index.html">
           web<span class="logo-studio">Studio</span>
         </a>
 
-        <!--Navigation-->
         <ul class="placement-in-a-line list">
           <li>
             <a href="./index.html" class="link text-link">
@@ -50,51 +48,6 @@
           </li>
         </ul>
       </nav>
-      <header class="top-line">
-        <!--Top line-->
-        <nav class="placement-in-a-line">
-          <!--Logo
-        <div class="logo-box">-->
-          <a class="link logo" href="./index.html">
-            web<span class="logo-studio">Studio</span>
-          </a>
-          <!--</div>-->
-
-          <ul class="placement-in-a-line list">
-            <li>
-              <a href="./index.html" class="link text-link">
-                <span class="navigation-box">Studio</span>
-              </a>
-            </li>
-            <li>
-              <a href="./portfolio.html" class="link text-link">
-                <span class="navigation-box">Portfolio</span>
-              </a>
-            </li>
-            <li>
-              <a href="" class="link text-link">
-                <span class="navigation-box">Contacts</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-        <address class="contacts">
-          <ul class="list placement-in-a-line">
-            <li>
-              <a class="link contact-box" href="mailto:info@devstudio.com">
-                info@devstudio.com
-              </a>
-            </li>
-
-            <li>
-              <a class="link contact-box" href="tel:+110001111111">
-                +11 (000) 111-11-11
-              </a>
-            </li>
-          </ul>
-        </address>
-      </header>
 
       <address class="contacts">
         <ul class="list placement-in-a-line">
@@ -114,41 +67,50 @@
     </header>
 
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <!-- 1. Effective Solutions for Your Business-->
+      <section class="title-box">
+        <div class="title">
+          <h1 class="main-title">
+            Effective Solutions <br />
+            for Your Business
+          </h1>
+        </div>
+        <button type="button" class="main-button">
+          <span class="button-text">Order Service</span>
+        </button>
       </section>
 
-      <section>
-        <h2>Advantages</h2>
-        <ul>
+      <!-- 2. Advantages-->
+      <section class="main-advantages-section">
+        <h2 hidden>Advantages</h2>
+        <ul class="list placement-in-a-line">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="advantages-title">Strategy</h3>
+            <p class="advantages-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
 
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="advantages-title">Punctuality</h3>
+            <p class="advantages-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
 
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="advantages-title">Diligence</h3>
+            <p class="advantages-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
 
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="advantages-title">Technologies</h3>
+            <p class="advantages-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -156,11 +118,13 @@
         </ul>
       </section>
 
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
+      <!-- 3. What are we doing-->
+      <section class="main-advantages-section">
+        <h2 class="opportunities-title">What are we doing</h2>
+        <ul class="list placement-in-a-line">
           <li>
             <img
+              class="images"
               src="./images/main-images/rectangle171.jpg"
               alt="desktop"
               width="360"
@@ -169,6 +133,7 @@
 
           <li>
             <img
+              class="images"
               src="./images/main-images/rectangle172.jpg"
               alt="mobile format"
               width="360"
@@ -177,6 +142,7 @@
 
           <li>
             <img
+              class="images"
               src="./images/main-images/rectangle173.jpg"
               alt="mobile synchronized with the computer"
               width="360"
@@ -185,44 +151,56 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <!--4. Our Team-->
+      <section class="main-section-team">
+        <h2 class="opportunities-title">Our Team</h2>
+        <ul class="list placement-in-a-line">
+          <li class="card">
             <img
               src="./images/main-images/img01.jpg"
               alt="M.Guerrero's photo"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <div class="card-signature">
+              <h3 class="card-name">Mark Guerrero</h3>
+              <p class="card-text">Product Designer</p>
+            </div>
           </li>
-          <li>
+
+          <li class="card">
             <img
               src="./images/main-images/img12.jpg"
               alt="T.Ford's photo"
               width="264"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <div class="card-signature">
+              <h3 class="card-name">Tom Ford</h3>
+              <p class="card-text">Frontend Developer</p>
+            </div>
           </li>
-          <li>
+
+          <li class="card">
             <img
               src="./images/main-images/img13.jpg"
               alt="C.Garcia's photo"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <div class="card-signature">
+              <h3 class="card-name">Camila Garcia</h3>
+              <p class="card-text">Marketing</p>
+            </div>
           </li>
-          <li>
+
+          <li class="card">
             <img
               src="./images/main-images/img14.jpg"
               alt="D.Wilson's photo"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <div class="card-signature">
+              <h3 class="card-name">Daniel Wilson</h3>
+              <p class="card-text">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
