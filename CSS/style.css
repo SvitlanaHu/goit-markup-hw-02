@@ -108,26 +108,31 @@ p {
   font-weight: 500;
 }
 
-.navbox:hover {
-  color: var(--active-link, #404bbf);
+.navbox:hover,
+.navbox:focus {
+  color: var(--active-link);
   border-radius: 2px;
 }
 
 .navbox1 {
-  color: var(--brend-color, #434455);
+  color: var(--brend-color);
   font-weight: 400;
   font-size: 16px;
   margin-left: 40px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.navbox1:hover {
-  color: var(--active-link, #404bbf);
+.navbox1:hover,
+.navbox1:focus {
+  color: var(--active-link);
 }
 
 .contacts {
   margin-left: 200px;
   font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brend-color);
 }
 
 /*Main*/
@@ -193,7 +198,7 @@ p {
 
 /* Section Our Team*/
 .main-section-team {
-  background: var(--team-background, #f4f4fd);
+  background: var(--team-background);
   height: 732px;
 }
 
@@ -209,7 +214,7 @@ p {
   margin-right: 24px;
   width: 264px;
   text-align: center;
-  background: var(--main-title, #fff);
+  background: var(--main-title);
 }
 
 .card-signature {
@@ -260,14 +265,14 @@ p {
 }
 
 .project-box-row > .project-card {
-  border: 1px solid var(--cornflower, #e7e9fc);
+  border: 1px solid var(--cornflower);
 }
 
 .project-card {
   width: 360px;
   height: 420px;
   margin-right: 24px;
-  background: var(--main-title, #fff);
+  background: var(--main-title);
 }
 
 .project-card-signature {
@@ -280,12 +285,12 @@ p {
 
 /*Footer*/
 footer {
-  width: 1440px;
-  height: 312px;
+  /*  width: 1440px;
+  height: 312px;*/
   flex-shrink: 0;
-  background: var(--brend-title-color, #2e2f42);
+  background: var(--brend-title-color);
   margin: 0;
-  padding: 0;
+  padding: 0 0 100px 0;
 }
 
 .logo-box-footer {
@@ -294,10 +299,10 @@ footer {
 }
 
 .logo-studio-footer {
-  color: var(--team-background, #f4f4fd);
+  color: var(--team-background);
 }
 
 .footer-text {
-  color: var(--team-background, #f4f4fd);
+  color: var(--team-background);
   padding-left: 156px;
 }
