@@ -1,0 +1,64 @@
+:root {
+  --slate: #434455;
+  --navy-blu: #2e2f42;
+  --cornflower: #e7e9fc;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --white: #fff;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  background: var(--white);
+  color: var(--slate);
+}
+
+/*Header*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris, #4d5ae5);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo-studio {
+  color: var(--navyblue, #2e2f42);
+}
+
+.list {
+  list-style: none;
+}
+
+.text-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contact-box {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate, #434455);
+}
+
+.contact-box:hover,
+.contact-box:focus {
+  color: var(--ocean, #404bbf);
+}
+
+/* Main*/
+
+/* Footer*/
+.logo-studio-footer {
+  color: var(--cloud, #f4f4fd);
+}
