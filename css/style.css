@@ -67,11 +67,6 @@ body {
   color: var(--ocean);
 }
 
-.placement-in-a-line {
-  display: flex;
-  flex-direction: row;
-}
-
 /* Main*/
 .title-box {
   background: var(--navy-blue);
