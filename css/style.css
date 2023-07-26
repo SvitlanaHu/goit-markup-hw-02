@@ -76,7 +76,11 @@ body {
   color: var(--ocean);
 }
 
-/* Main*/
+/* Main
+=============================================
+   1. Effective Solutions for Your Business
+=============================================
+*/
 .title-box {
   background: var(--navy-blue);
 }
@@ -105,8 +109,12 @@ body {
   cursor: pointer;
 }
 
+/* 
+=============================================
+   2. Advantages
+=============================================
+*/
 .main-advantages-section {
-  font-weight: 500;
 }
 
 .advantages-title {
@@ -133,6 +141,17 @@ body {
   color: var(--navy-blue);
 }
 
+/* 
+=============================================
+   3. What are we doing
+=============================================
+*/
+
+/* 
+=============================================
+   4. Our Team
+=============================================
+*/
 .main-section-team {
   background-color: #f4f4fd;
 }
@@ -156,7 +175,11 @@ body {
   color: var(--slate);
 }
 
-/*Portfolio*/
+/* 
+=============================================
+   Portfolio
+=============================================
+*/
 .portfolio-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -182,7 +205,11 @@ body {
   color: var(--navy-blue);
 }
 
-/* Footer*/
+/* 
+=============================================
+   Footer
+=============================================
+*/
 .logo-studio-footer {
   color: var(--cloud, #f4f4fd);
 }
