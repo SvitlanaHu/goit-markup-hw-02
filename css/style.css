@@ -8,14 +8,31 @@
   --cloud: #f4f4fd;
 }
 
+/*
+=========================================
+      Base styles
+=========================================
+*/
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  background: var(--white);
   color: var(--slate);
+  background: var(--white);
 }
 
-/*Header*/
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/*
+=========================================
+      Header
+=========================================
+*/
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -26,16 +43,8 @@ body {
   color: var(--iris);
 }
 
-.link {
-  text-decoration: none;
-}
-
 .logo-studio {
   color: var(--navy-blue);
-}
-
-.list {
-  list-style: none;
 }
 
 .text-link {
